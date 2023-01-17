@@ -2,11 +2,11 @@ import Link from "next/link";
 
 function Nav(){
     return (
-        <nav className="container flex flex-wrap border w-4/5 place-content-center mx-auto space-x-12">
+        <nav className="border container flex flex-wrap w-4/5 place-content-center mx-auto space-x-12 mb-7">
             {[
                 ['Home', '/'],
                 ['Search', '/search'],
-                ['Post', '/'],
+                ['Post', '/post'],
                 ['Dealers', '/'],
                 ['Calculator', '/'],
             ].map(([title, url]) => (

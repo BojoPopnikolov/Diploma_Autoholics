@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
-import Header from "../components/ui/header";
-import Nav from '../components/ui/nav';
+import Header from "../components/ui/Header";
+import Nav from '../components/ui/Nav';
 
 function Search()
 {
