@@ -24,9 +24,17 @@ module.exports = {
         'gray': '#8492a6',
         'gray-light': '#d3dce6',
         'green-theme': '#8dc6bf',
-        'purple-theme': '#584053',
+        'purple-theme': {
+          light: '#8a7986',
+          DEFAULT: '#584053',
+          dark: '#3d2c3a',
+        },
         'yellow-theme': '#fcbc66',
-        'orange-theme': '#f97b4f',
+        'orange-theme': {
+          light: '#faa283',
+          DEFAULT: '#f97b4f',
+          dark: '#c7623f',
+        },
       }
     },
     container: {

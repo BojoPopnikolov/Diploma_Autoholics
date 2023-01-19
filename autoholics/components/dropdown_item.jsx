@@ -5,11 +5,12 @@ const Car = () => {
   const [model, setModel] = useState('');
   const [trim, setTrim] = useState('');
 
-  const brands = ['Audi', 'BMW', 'Mercedes-Benz'];
+  const brands = ['Audi', 'BMW', 'Mercedes-Benz', 'Ford'];
   const models = {
     'Audi': ['A3', 'A4'],
     'BMW': ['3 series', '5 series'],
     'Mercedes-Benz': ['C klasse', 'S klasse'],
+    'Ford': ['Cougar', 'Fiesta'],
   };
   const trims = {
     'A3': ['1.9TDI', 'S-Line'],
@@ -18,6 +19,8 @@ const Car = () => {
     '5 series': ['535d', 'M5'],
     'C klasse': ['320CDI', 'AMG 55'],
     'S klasse': ['400', 'AMG 63'],
+    'Cougar': ['2.5V6'],
+    'Fiesta': ['ST'],
   };
 
   const handleBrandChange = (event) => {

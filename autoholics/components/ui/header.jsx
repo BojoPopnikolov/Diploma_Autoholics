@@ -13,10 +13,14 @@ function Header(){
                     <h3 className="font-sans text-sm text-purple-theme"><Link href="/">Smoking tyres, happy buyers</Link></h3>
                 </div>
             </div>
-            <div className="flex flex-col place-items-center inset-y-0 right-0">
-                <div className="border w-10 h-10"></div>
-                <button className="font-mono text-md text-purple-theme border">Sign Up</button>
-            </div>
+            <Link href="/sign_up">
+                <div className="flex flex-col place-items-center inset-y-0 right-0">
+                    <div className="w-10 h-10">
+                        <Image src="/profile.png" width="40" height="40"></Image>
+                    </div>
+                    <button className="font-mono text-md text-purple-theme border">Sign Up</button>
+                </div>
+            </Link>        
         </div>
     );
 };

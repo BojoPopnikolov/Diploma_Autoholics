@@ -12,13 +12,13 @@ function Home_Container(){
             <div className="border">VIP Listings
                 <div className="flex flex-row">
                     {[
-                        ['BMW', '3 series', '323i'],
+                        ['Ford', 'Cougar', '2.5V6'],
                         ['Audi', 'A4', 'S-line'],
                         ['BMW', '5 series', 'M5'],
                         ['Mercedes-Benz', 'C klasse', 'AMG 55'],
                     ].map(([brand, model, trim]) => (
                         <Link href={{
-                            pathname: './article',
+                            pathname: './listing',
                             query: {
                                 brand:brand,
                                 model:model,
