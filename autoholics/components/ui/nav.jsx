@@ -6,7 +6,7 @@ function Nav(){
             {[
                 ['Home', '/'],
                 ['Search', '/search'],
-                ['Post', '/post'],
+                ['Post', '/Post/post'],
                 ['Dealers', '/'],
                 ['Calculator', '/'],
             ].map(([title, url]) => (
